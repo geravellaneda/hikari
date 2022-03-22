@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HAKARI SHADŌ - Contacto</title>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body id="contacto">
+
+	<div class="wrapper"> 
+
+		<!-- NAVEGACIÓN (pages) COMIENZA -->
+		<nav class="navigation dividerBottom">
+			<ul>
+				<li><a class="navigation__item text-md" href="../index.html">Index</a></li>
+				<li><a class="navigation__item text-md" href="../pages/coleccion.html">Colección</a></li>
+				<li><a class="navigation__item text-md" href="../pages/novedades.html">Novedades</a></li>
+				<li><a class="navigation__item text-md currentPage" href="../pages/contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+
+		<!-- HEADER LOGO -->
+		<header class="header">
+			<div class="header__logo dividerBottom">
+				<a href="#"><img class="fluid" src="../media/hikariShadoLogoOverBlack.svg" alt="HIKARI SHADO Logo"></a>
+			</div>
+		</header>	
+
+		<!-- CONTENIDO COMIENZA -->
+		<main>
+			<section>
+
+				<!-- FORM INICIA -->
+				<form action="" class="form">
+
+					<label for="mensaje" class="form__header"><h3 class="text-lg">¿Consultas? ¿Algo para decirnos?</h3></label>
+					<textarea class="form__textarea text-md" name="mensaje" id="mensaje" placeholder="Escribí tu mensaje acá :)"></textarea>
+
+					<fieldset class="form__fieldset">
+						<legend><h5 class="text-md">Tus datos</h5></legend>
+						
+						<!-- NOMBRE -->
+						<label for="nombre"><p>¿Cuál es tu nombre?</p></label>
+						<input type="text" class="form__input" placeholder="Tu nombre" name="nombre" id="nombre">
+						
+						<!-- EMAIL -->
+						<label for="email"><p>¿Y tu dirección de email?</p></label>
+						<input type="email" class="form__input" placeholder="Tu email" name="email" id="email">
+					</fieldset>
+
+					<div class="form__buttons">
+						<input class="form__reset text-md" type="reset" value="Cancelar">
+						<input class="form__submit text-md" type="submit" value="Enviar">
+					</div>
+				</form>
+				<!-- FORM TERMINA -->
+
+			</section>
+		</main>
+		<!-- CONTENIDO TERMINA -->
+
+	</div>
+
+	<!-- FOOTER (pages) COMIENZA -->
+	<footer class="footer">
+		<a class="footer__logo" href="index.html"><img src="../media/hikariShadoLogoOverBlack.svg" alt="HIKARI SHADŌ Logo"></a>
+		<ul class="footer__navigation">
+			<li><a href="../index.html" class="text-md">Index</a></li>
+			<li><a href="../pages/coleccion.html" class="text-md">Colección</a></li>
+			<li><a href="../pages/novedades.html" class="text-md">Novedades</a></li>
+			<li><a href="#" class="text-md">Contacto</a></li>
+		</ul>
+		<ul class="footer__social">
+			<li><a href="http://twitter.com" target="_blank" class="text-md">Twitter</a></li>
+			<li><a href="http://instagram.com" target="_blank" class="text-md">Instagram</a></li>
+			<li><a href="http://youtube.com" target="_blank" class="text-md">YouTube</a></li>
+			<li><a href="http://twitch.com" target="_blank" class="text-md">Twitch</a></li>
+		</ul>
+		<a class="footer__proyecto text-sm" href="../pages/acerca-del-proyecto.html">Acerca del Proyecto</a>
+		<p class="footer__copyright text-sm">&copy; Copyright 2022 - Todos los derechos reservados</p>
+	</footer>
+	<!-- FOOTER TERMINA -->
+</body>
+</html>
