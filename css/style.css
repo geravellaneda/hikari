@@ -131,7 +131,7 @@ body {
 
 	a {
 		text-decoration: none;
-		transition: color .66s ease-in-out;
+		/*transition: color .66s ease-in-out;*/
 	}
 
 		a:hover {
@@ -194,6 +194,7 @@ body {
 			top: 0;
 			padding: 1rem 0;
 			overflow-x: hidden;
+			z-index: 9999;
 		}
 
 		.navigation ul {
@@ -993,5 +994,5 @@ body {
 
 /* === GRADIENTS === */
 
-
+/* TBD */
 
