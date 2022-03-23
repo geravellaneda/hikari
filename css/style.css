@@ -131,7 +131,7 @@ body {
 
 	a {
 		text-decoration: none;
-		/*transition: color .66s ease-in-out;*/
+		transition: color .66s ease-in-out;
 	}
 
 		a:hover {
@@ -983,3 +983,15 @@ body {
 		top: 100px;
 	}
 }
+
+/* === ANIMACION === */
+
+	main a:hover /*:hover*/ {
+	 	display: inline-block;
+		transform: scale(1.05);
+	}
+
+/* === GRADIENTS === */
+
+
+
