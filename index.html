@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>HAKARI SHADŌ — INDEX — Bienvenido</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body id="index">
 
@@ -24,7 +25,7 @@
 		<!-- HEADER LOGO -->
 		<header class="header">
 			<div class="header__logo">
-				<a href="#"><img class="fluid" src="media/hikariShadoLogoOverBlack.svg" alt="HIKARI SHADO Logo"></a>
+				<a href="#" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-sine"><img class="fluid" src="media/hikariShadoLogoOverBlack.svg" alt="HIKARI SHADO Logo"></a>
 			</div>
 		</header>
 
@@ -33,14 +34,14 @@
 
 			<!-- HERO COMIENZA -->
 			<section class="hero">
-				<img class="hero__img fluid" src="media/header.jpg" alt="Colección 2022 - Otoño Invierno">
+				<img class="hero__img fluid" src="media/header.jpg" alt="Colección 2022 - Otoño Invierno" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-sine">
 			</section>
 			<!-- HERO TERMINA -->
 
 			<section class="destacados">
 
 				<!-- DESTACADO - COPY A IZQUIERDA -->
-				<article class="featured">
+				<article class="featured" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
 					<div class="featured__copy">
 						<h3 class="text-lg">Blanco, negro y todos los grises</h3>
 						<p> Quis velit natus ipsum nisi laborum veniam fugit dicta, amet adipisci officiis commodi.</p>
@@ -52,7 +53,7 @@
 				</article>
 				
 				<!-- DESTACADO - COPY A DERECHA -->
-				<article class="featured">
+				<article class="featured"  data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">
 					<div class="featured__img">
 						<img class="fluid" src="media/coleccion--02.jpg" alt="Foto de Unsplash">
 					</div>
@@ -65,8 +66,8 @@
 			</section>
 
 			<!-- DESTACADO GRANDE -->
-			<section class="destacadisimo"> <!-- Agregar imagen de fondo con CSS  -->
-				<div class="destacadisimo__caja">
+			<section class="destacadisimo">
+				<div class="destacadisimo__caja" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="ease-in-sine">
 					<h2 class="destacadisimo__title text-lg">Los colores se ven mejor con blanco y negro.</h2>
 					<p class="destacadisimo__copy">Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Aspernatur id rem consequuntur et sequi labore suscidicta.</p>
 				</div>
@@ -112,7 +113,7 @@
 
 		<!-- SECTION CONTACTANOS -->
 		<section class="contact">
-			<div class="contact__content">
+			<div class="contact__content" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="ease-in-sine">
 				<h3 class="contact__title text-lg">Blancos no tan blancos — Negros no tan negros.</h3>
 				<p class="contact__copy">Obcaecati quia rerum provident, harum reiciendis earum illum inventore, autem, facilis eaque ipsam.</p>
 				<a class="contact__link text-md" href="pages/contacto.html">Contactanos</a>
@@ -139,6 +140,8 @@
 		</footer>
 		<!-- FOOTER TERMINA -->
 	</div>
-
+<!-- LIBRERIA ANIMATE ON SCROLL -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
 </body>
 </html>

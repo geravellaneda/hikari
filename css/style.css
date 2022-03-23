@@ -194,6 +194,7 @@ body {
 			top: 0;
 			padding: 1rem 0;
 			overflow-x: hidden;
+			z-index: 9999;
 		}
 
 		.navigation ul {
@@ -983,3 +984,15 @@ body {
 		top: 100px;
 	}
 }
+
+/* === ANIMACION === */
+
+	main a:hover /*:hover*/ {
+	 	display: inline-block;
+		transform: scale(1.05);
+	}
+
+/* === GRADIENTS === */
+
+/* TBD */
+
