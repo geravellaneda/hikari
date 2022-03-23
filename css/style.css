@@ -615,7 +615,7 @@ body {
     	}
 
 /* MOBILE */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 767px) {
 
 	/* NAVIGATION */
 	.navigation {
@@ -754,7 +754,7 @@ body {
 
 /* TABLET */
 
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (min-width: 768px) and (max-width: 960px) {
 
 
 	/* NAVIGATION */
