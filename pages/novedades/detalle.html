@@ -4,93 +4,126 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>HIKARI SHADO - Novedades página detalle</title>
+
+	<!-- BOOTSTRAP CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<!-- -->
+
 	<link rel="stylesheet" href="../../css/style.css">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
-	<div class="wrapper"> 
+	<!-- NAVIGATION (SUB PAGES) BEGINS -->
+	<nav class="navbar navbar-expand-md navbar-dark sticky-top bg-gray">
+	  <div class="container-md dividerBottom">
+	  	<div class="row">
+	    
+		    <!-- MENU ITEMS -->
+		    <div class="collapse navbar-collapse dividerBottom" id="navbarNav">
+		      <ul class="navbar-nav d-flex justify-content-around w-100 text-center mb-3 mb-md-0">
+		        <li class="nav-item">
+		          <a class="nav-link text-lg navigation__item p-3" href="../../index.html">Index</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link text-lg navigation__item p-3" href="../../pages/coleccion.html">Colección</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link text-lg navigation__item p-3" href="../../pages/novedades.html">Novedades</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link text-lg navigation__item p-3" href="../../pages/contacto.html">Contacto</a>
+		        </li>
+		      </ul>
+		    </div>
+		    
+		    <!-- COLLAPSIBLE BUTTON -->
+		    <button class="navbar-toggler col-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    	<span class="navbar-toggler-icon"></span>
+		    </button>
 
-		<!-- NAVEGACIÓN (sub pages) COMIENZA -->
-		<nav class="navigation dividerBottom">
-			<ul>
-				<li><a class="navigation__item text-md" href="../../index.html">Index</a></li>
-				<li><a class="navigation__item text-md" href="../../pages/coleccion.html">Colección</a></li>
-				<li><a class="navigation__item text-md" href="../../pages/novedades.html">Novedades</a></li>
-				<li><a class="navigation__item text-md" href="../../pages/contacto.html">Contacto</a></li>
-			</ul>
-		</nav>
+		    <!-- BRAND LOGO -->
+		    <a class="navbar-brand col-10 col-md-6 offset-md-3 my-md-3 m-0 m-md-auto" href="#">
+		    	<img class="img-fluid" src="../../media/hikariShadoLogoOverBlack.svg" alt="HIKARI SHADO Logo">
+		    </a>
 
-		<!-- HEADER LOGO -->
-		<header class="header">
-			<div class="header__logo dividerBottom">
-				<a href="../../index.html"><img class="fluid" src="../../media/hikariShadoLogoOverBlack.svg" alt="HIKARI SHADO Logo"></a>
+		</div>
+	  </div>
+	</nav>
+	<!-- NAVIGATION ENDS -->
+
+
+	<!-- CONTENIDO COMIENZA -->
+	<main class="container">
+		<h1 class="text-lg">La buena nueva no debe esperar nunca, porque es buena.</h1>
+
+		<section class="row">
+			<article class="col-md-9 col-xl-6 offset-xl-2">
+				<img src="../../media/coleccion--07.jpg" alt="Foto de Janko Ferlic" width="100%">
+				<h2 class="text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime minus sequi, magni, quasi modi corporis libero reiciendis tenetur? Minus nam quidem rem corporis, itaque aliquam qui quasi necessitatibus! Dolor, possimus?</h2>
+				<p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Doloremque atque, est delectus modi ut vel consequuntur possimus perspiciatis iusto soluta error maxime quidem esse quaerat ab totam placeat veniam accusamus.</p>
+				<p>Nemo officia ad necessitatibus nulla adipisci praesentium laudantium mollitia! Eveniet accusamus, dolor sit ad neque dolores doloremque soluta, vero, veritatis voluptates a asperiores reiciendis officia provident beatae, magni minima accusantium.</p>
+				<p>Esse deleniti veritatis illum sequi libero quis excepturi, perspiciatis provident autem adipisci voluptates dolore debitis, quasi, quia aut aliquam corporis omnis, ipsam doloribus voluptate neque tempora nostrum. Aspernatur, ex, maxime.</p>
+				<blockquote class="content__quote text-md">Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Accusantium suscipit placeat ducimus tenetur earum non adipisci eos doloribus neque inventore dolor beatae nulla, a soluta aliquid, unde, mollitia natus minima!</blockquote>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, laborum laboriosam beatae, architecto voluptas voluptatem, fugiat fuga libero inventore quis itaque, obcaecati ad nam consectetur facere porro saepe nostrum debitis.</p>
+				<p>Saepe odio temporibus fugiat nam impedit placeat? Saepe inventore dolor adipisci at magni numquam, reiciendis pariatur. Veniam maiores distinctio, minus facere mollitia facilis, consequatur laborum tempore rerum magni delectus deleniti!</p>
+				<h3 class="text-md">Aliquam assumenda veritatis dolores tenetur</h3>
+				<p>Quaerat aliquid iure accusamus atque esse exercitationem, labore id, quae, quasi, sapiente excepturi modi. Aliquam assumenda veritatis dolores tenetur, sit nemo natus eligendi vitae deleniti. <a href="#">Unde, officiis ab </a>enim cupiditate?</p>
+				<p>Eaque, consectetur, fugit! Fugiat deserunt nam, voluptatem maiores neque repudiandae, accusamus odio tenetur. Reiciendis, doloremque fugiat incidunt dolore optio quibusdam tenetur. A ut, doloremque accusamus totam aspernatur ipsam voluptate distinctio?</p>
+			</article>
+			<aside class="col-md-3 d-flex justify-content-sm-evenly flex-md-column justify-content-md-start dividerBottom dividerTop py-3">
+				<img class="img-fluid w-25 me-3 me-md-0	" src="../../media/author.gif" alt="HIKARI SHADO">
+				<div class="">
+					<h4 class="text-sm">Publicado por HIRAKI SHADO</h4>
+					<p class="text-sm">El 22 de febrero de 2022</p>
+				</div>
+			</aside>
+		</section>
+
+		<!-- SECTION CONTACTANOS -->
+		<section class="contact">
+			<div class="contact__content" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="ease-in-sine">
+				<h3 class="contact__title text-lg">Blancos no tan blancos — Negros no tan negros.</h3>
+				<p class="contact__copy">Obcaecati quia rerum provident, harum reiciendis earum illum inventore, autem, facilis eaque ipsam.</p>
+				<a class="contact__link text-md" href="../../pages/contacto.html">Contactanos</a>
 			</div>
-		</header>
-
-		<!-- CONTENIDO COMIENZA -->
-		<main>
-			<h1 class="text-lg dividerBottom">La buena nueva no debe esperar nunca, porque es buena.</h1>
-
-			<section class="content">
-				<article class="content__text">
-					<img src="../../media/coleccion--07.jpg" alt="Foto de Janko Ferlic" width="100%">
-					<h2 class="text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime minus sequi, magni, quasi modi corporis libero reiciendis tenetur? Minus nam quidem rem corporis, itaque aliquam qui quasi necessitatibus! Dolor, possimus?</h2>
-					<p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Doloremque atque, est delectus modi ut vel consequuntur possimus perspiciatis iusto soluta error maxime quidem esse quaerat ab totam placeat veniam accusamus.</p>
-					<p>Nemo officia ad necessitatibus nulla adipisci praesentium laudantium mollitia! Eveniet accusamus, dolor sit ad neque dolores doloremque soluta, vero, veritatis voluptates a asperiores reiciendis officia provident beatae, magni minima accusantium.</p>
-					<p>Esse deleniti veritatis illum sequi libero quis excepturi, perspiciatis provident autem adipisci voluptates dolore debitis, quasi, quia aut aliquam corporis omnis, ipsam doloribus voluptate neque tempora nostrum. Aspernatur, ex, maxime.</p>
-					<blockquote class="content__quote text-md">Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Accusantium suscipit placeat ducimus tenetur earum non adipisci eos doloribus neque inventore dolor beatae nulla, a soluta aliquid, unde, mollitia natus minima!</blockquote>
-					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, laborum laboriosam beatae, architecto voluptas voluptatem, fugiat fuga libero inventore quis itaque, obcaecati ad nam consectetur facere porro saepe nostrum debitis.</p>
-					<p>Saepe odio temporibus fugiat nam impedit placeat? Saepe inventore dolor adipisci at magni numquam, reiciendis pariatur. Veniam maiores distinctio, minus facere mollitia facilis, consequatur laborum tempore rerum magni delectus deleniti!</p>
-					<h3 class="text-md">Aliquam assumenda veritatis dolores tenetur</h3>
-					<p>Quaerat aliquid iure accusamus atque esse exercitationem, labore id, quae, quasi, sapiente excepturi modi. Aliquam assumenda veritatis dolores tenetur, sit nemo natus eligendi vitae deleniti. <a href="#">Unde, officiis ab </a>enim cupiditate?</p>
-					<p>Eaque, consectetur, fugit! Fugiat deserunt nam, voluptatem maiores neque repudiandae, accusamus odio tenetur. Reiciendis, doloremque fugiat incidunt dolore optio quibusdam tenetur. A ut, doloremque accusamus totam aspernatur ipsam voluptate distinctio?</p>
-				</article>
-				<aside class="content__aside dividerBottom">
-					<img src="../../media/author.gif" alt="HIKARI SHADO">
-					<div class="content__aside--info">
-						<h4 class="text-sm">Publicado por HIRAKI SHADO</h4>
-						<p class="text-sm">El 22 de febrero de 2022</p>
-					</div>
-				</aside>
-			</section>
+		</section>
 
 
-			<!-- SECTION CONTACTANOS -->
-			<section class="contact">
-				<div class="contact__content">
-					<h3 class="text-lg">La buena nueva no debe esperar nunca, porque es buena.</h3>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex perferendis similique velit, beatae officiis, repellendus deleniti quod. Obcaecati quia rerum provident, harum reiciendis earum illum inventore, autem, facilis eaque ipsam.</p>
-					<a class="text-md" href="../../pages/contacto.html">Consultanos</a>
-			</section>
+	</main>
+	<!-- CONTENIDO TERMINA -->
 
-		</main>
-		<!-- CONTENIDO TERMINA -->
 
+	<!-- FOOTER (SUB PAGES) BEGINS -->
+	<div class="container">
+		<div class="row">
+			<footer class="footer">
+				<a class="footer__logo" href="index.html"><img class="fluid" src="../../media/hikariShadoLogoOverBlack.svg" alt="HIKARI SHADO Logo"></a>
+				<ul class="footer__navigation p-0">
+					<li><a href="../../index.html" class="text-md">Index</a></li>
+					<li><a href="../../pages/coleccion.html" class="text-md">Colección</a></li>
+					<li><a href="../../pages/novedades.html" class="text-md">Novedades</a></li>
+					<li><a href="../../pages/contacto.html" class="text-md">Contacto</a></li>
+				</ul>
+				<ul class="footer__social p-0">
+					<li><a href="http://twitter.com" target="_blank" class="text-md">Twitter</a></li>
+					<li><a href="http://instagram.com" target="_blank" class="text-md">Instagram</a></li>
+					<li><a href="http://youtube.com" target="_blank" class="text-md">YouTube</a></li>
+					<li><a href="http://twitch.com" target="_blank" class="text-md">Twitch</a></li>
+				</ul>
+				<a class="footer__proyecto text-sm" href="../../pages/acerca-del-proyecto.html">Acerca del Proyecto</a>
+				<p class="footer__copyright text-sm">&copy; Copyright 2022 - Todos los derechos reservados</p>
+			</footer>
+		</div>
 	</div>
-
-	<!-- FOOTER (sub pages) COMIENZA -->
-	<footer class="footer">
-		<a class="footer__logo" href="index.html"><img src="../../media/hikariShadoLogoOverBlack.svg" alt="HIKARI SHADO Logo"></a>
-		<ul class="footer__navigation">
-			<li><a href="../../index.html" class="text-md">Index</a></li>
-			<li><a href="../../pages/coleccion.html" class="text-md">Colección</a></li>
-			<li><a href="../novedades.html" class="text-md">Novedades</a></li>
-			<li><a href="../../pages/contacto.html" class="text-md">Contacto</a></li>
-		</ul>
-		<ul class="footer__social">
-			<li><a href="http://twitter.com" target="_blank" class="text-md">Twitter</a></li>
-			<li><a href="http://instagram.com" target="_blank" class="text-md">Instagram</a></li>
-			<li><a href="http://youtube.com" target="_blank" class="text-md">YouTube</a></li>
-			<li><a href="http://twitch.com" target="_blank" class="text-md">Twitch</a></li>
-		</ul>
-		<a class="footer__proyecto text-sm" href="../../pages/acerca-del-proyecto.html">Acerca del Proyecto</a>
-		<p class="footer__copyright text-sm">&copy; Copyright 2022 - Todos los derechos reservados</p>
-	</footer>
-	<!-- FOOTER TERMINA -->
+	<!-- FOOTER ENDS -->
 
 <!-- LIBRERIA ANIMATE ON SCROLL -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>AOS.init();</script>
+
+<!-- BOOTSTRAP JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
 </html>
