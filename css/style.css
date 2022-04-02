@@ -26,7 +26,6 @@ html {
 	font-family: 'Marcellus', serif;
 	font-weight: 400;
 	font-style: normal;
-	/*overflow-x: hidden;*/
 	box-sizing: border-box;
 
 /* === CSS RESET === */
@@ -41,8 +40,6 @@ html {
 body {
 	color: red; /* debug */
 	background-color: rgb(20, 26, 25);
-	/*padding: 2rem 15%;*/
-    /*background-image: url(../media/pattern.gif)*/
 }
 
 	/* === FONT SIZES === */
@@ -58,12 +55,6 @@ body {
 		line-height: 4.4rem;
 
 	}
-
-	/*h3, .text-lg {
-		font-size: 3rem;
-		line-height: 3.3rem;
-		text-transform: uppercase;
-	}*/
 
 	h4 {
 		font-size: 2rem;
@@ -134,13 +125,11 @@ body {
 
 	a {
 		text-decoration: none;
-		/*transition: color .66s ease-in-out;*/
 	}
 
 		a:hover {
 			text-decoration: underline;
 			text-decoration-thickness: 2px;
-
 		}
 
 
@@ -149,13 +138,11 @@ body {
 	.dividerTop {
 		border-width: .1rem;
 		border-top-style: solid;
-		/*padding-top: 1rem;*/
 	}
 
 	.dividerBottom {
 		border-width: .1rem;
 		border-bottom-style: solid;
-		/*padding: 1rem 0;*/
 	}
 
 	/* FLUID IMAGES */
@@ -195,7 +182,6 @@ body {
 
 			.navigation ul li {
 				display: inline-block;
-				/*margin-right: 1rem;*/
 			}
 
 			.navigation__item {
@@ -205,29 +191,25 @@ body {
 
 		/* === FOOTER === */
 
-		.footer {
-			}
+		.footer {}
 			
 			.footer__logo {
 				margin-bottom: 2rem;
-				}
+			}
 			.footer__logo img {
 				width: 64%;
 				padding-left: 2rem;
-				}
+			}
 			
 			.footer__navigation,
 			.footer__social {
 				list-style: none;
-				}
+			}
 
-				
-			.footer__proyecto {
-				}
 
 			.footer__copyright {
 				margin: 0;
-				}
+			}
 
 	/* === PAGE SPECIFIC === */
 
@@ -236,9 +218,7 @@ body {
 			/* === HERO === */
 
 			.hero {}
-			.hero__img {
-				/*width: 100%;*/
-			}
+			.hero__img {}
 
 			/* === CONTENT === */
 
@@ -250,20 +230,13 @@ body {
 					display: grid;
 					grid-template-columns: repeat(2, 1fr);
 					align-items: center;
-					}
+				}
 
 					.featured__copy {
 						padding: 4rem;
-						/*display: inline-block;*/
-						/*width: 50%;*/
-						/*box-sizing: border-box;*/
 					}
 
-					.featured__img {
-						/*display: inline-block;*/
-						/*width: 49%;*/
-						/*box-sizing: border-box;*/
-					}
+					.featured__img {}
 
 				/* === DESTACADISIMO === */
 
@@ -278,9 +251,8 @@ body {
 					background-color: rgb(20, 26, 25);
 					padding: 4rem;
 					border: .4rem solid rgb(121, 110, 73);
-					/*border-left: none;*/
 					box-sizing: border-box;
-					}
+				}
 
 					.destacadisimo__title {}
 					.destacadisimo__copy {}
@@ -293,23 +265,22 @@ body {
 					    align-items: baseline;
 					    flex-direction: row;
 					    justify-content: space-between;
-					    padding: 0 2rem;
-						}
+					    /*padding: 0 2rem;*/
+					}
 					.novedades__content {
 						margin-top: 4rem ;
-						}
+					}
 						.novededes__title {}
 						.novedades__link {}
 
-					.novedades__article {
-						}
+					.novedades__article {}
 						.novedades__article h4,
 						.novedades__article p {
 							margin-bottom: 0;
-						}
+					}
 						.novedades__article p {
 							margin-top: 0;
-						}
+					}
 
 				/* === CONTACT === */
 
@@ -320,7 +291,7 @@ body {
 					margin: 3rem 0 0	;
 					box-sizing: border-box;
 					overflow-x: hidden;
-					}
+				}
 					.contact__content {
 						background: rgb(20, 26, 25);
 						color: red;
@@ -334,34 +305,26 @@ body {
 		/* === PAGINA COLECCION === */
 
 		.coleccion__grid {
-		    /*margin-top: 1rem;*/
-		    /*padding: 0 2rem;*/
 		    display: grid;
 		    grid-template-columns: 1fr;
 		    justify-content: space-between;
-			}
+		}
 			.colection__title {
 				padding: 1rem 2rem 0;
 			}
-			.coleccion__articulo figcaption {
-				padding: 0 1rem 1rem;
-				}
+			.coleccion__articulo figcaption {}
 
 				/* === PAGINA DETALLE COLECCION === */
 
 				.producto {
-					/*margin-top: 4rem;*/
 					/* GRID: Mobile first */
 					display: grid;
-					/*justify-content: space-between;*/
 					}
 
 					.producto__imagenes {
 						order: 2;
 						}
-						.producto__imagenes img {
-							/*width: 100%;*/
-						}
+						.producto__imagenes img {}
 
 					.producto__descripcion {
 						order: 1;
@@ -382,21 +345,14 @@ body {
 			}
 			
 			.novedades__destacada {
-				/*margin: 2rem 0;*/
-				/*padding-bottom: 3rem;*/
 				/* GRID */
 				display: grid;
 				grid-template-columns: 1fr;
-				/*flex-direction: row-reverse;*/
 			}
 
-				.novedades__destacada img {
-					/*width: 50%;*/
-				}
+				.novedades__destacada img {}
 				.novedades__text {
-					/*width: 50%;*/
 					padding: 1rem 2rem 2rem;
-					/*box-sizing: border-box;*/
 				}
 
 			.novedades__articulos {
@@ -406,7 +362,6 @@ body {
 			}
 			
 				.novedades__articulo {
-					/*margin-bottom: 2rem;*/
 					padding-bottom: 2rem;
 				}
 				.novedades__articulo a,
@@ -421,24 +376,16 @@ body {
 			margin-top: 2rem;
 			/* GRID */
 			display: grid;
-/*		    flex-direction: row-reverse;
-		    justify-content: space-evenly;
-		    align-items: flex-start;
-*/			}
+		}
 
 			.content__text {
 				/*width: 60%;*/
 				padding: 0 2rem;
 			}
 			.content__aside {
-				/*width: 20%;*/
-				/*position: sticky;
-				top: 120px;
-				z-index: -1;*/
 				padding: 2rem;
 				display: grid;
 				grid-template-columns: 1fr 2fr;
-				/*grid-template-columns: repeat(3, 1fr);*/
 				grid-column-gap: 1rem;
 			}
 				.content__aside img {
@@ -455,9 +402,7 @@ body {
 		/* === PAGINA CONTACTO === */
 
 		.form {
-			/*padding: 4rem 0;*/
 			padding: 0 1rem;
-		    /*display: grid;*/
     		justify-content: center;
 			}
 
@@ -465,7 +410,6 @@ body {
 				padding: 2rem;
 		     	border: none; 
 			    background-color: rgba(255, 255, 255, .03);
-			    /*margin: 1rem 0;*/
 			}
 			.form__header {
 				margin: 4rem 0;
@@ -481,18 +425,14 @@ body {
 			}
 
 			:focus-visible {
-				/*background-color: rgb(242, 247, 247);*/
     			outline: none;
     			color: rgb(121, 110, 73);
     			border: 0.1rem white solid;
 			}
 
 			.form__textarea {
-				/*width: 100%;*/
-				/*height: 200px;*/
 			    padding: 1rem;
 			    box-sizing: border-box;
-			    /*margin: 0 0 1rem;*/
 			    background: rgb(20, 26, 25);
 			    border: .4rem solid rgb(121, 110, 73);
 			}
@@ -507,8 +447,6 @@ body {
 					padding: 1rem 2rem;
 					box-sizing: border-box;
 					border: none;
-					/*width: 100%;*/
-					/*margin-bottom: 1rem	;*/
 				}
 				.form__reset {
 					border: .1rem solid rgb(121, 110, 73);
@@ -704,7 +642,6 @@ body {
 	/* NOVEDADES GRID */
 	.novedades__header {
 	    margin-top: 0;
-	    padding: 0 1rem;
 	}
     .novedades__content {
     	display: grid;
@@ -959,10 +896,6 @@ body {
 			order: 2;
 		}
 		.producto__descripcion {
-			/*position: sticky;*/
-			/*align-self: flex-start;*/
-			/*top: 200px;*/
-			/*z-index: -1;*/
 			order: 3;
 		}
 			.producto__descripcion {
@@ -1028,6 +961,13 @@ ul {
     border: none;
 }
 
-.bg-gray{
+.bg-gray {
 	background-color: rgb(20, 26, 25);
+}
+
+/* RESPONSIVE HEADER MD AND UP */
+@media only screen and (min-width: 768px) {
+	.navbar {
+		position: static;
+	}
 }
