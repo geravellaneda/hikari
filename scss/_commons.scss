@@ -9,9 +9,15 @@
 /* --- GLOBAL STYLES --- */
 /* --------------------- */
 
+/* COLOR VARIABLES */
+$gray-dark:rgb(20, 26, 25);
+$gray-medium:rgb(148, 145, 133);
+$gray-light:rgb(242, 247, 247);
+$golden:rgb(121, 110, 73);
+
 body {
 	color: red; /* debug */
-	background-color: rgb(20, 26, 25);
+	background-color: $gray-dark;
 }
 
 	/* === FONT SIZES === */
@@ -51,19 +57,19 @@ body {
 		.navigation__item,
 		.form__textarea,
 		.form__input {
-			color: rgb(148, 145, 133);
+			color: $gray-medium;
 		}
 
 		.dividerTop,
 		.dividerBottom {
-			border-color: rgb(148, 145, 133);
+			border-color: $gray-medium;
 		}
 
 		/* LIGHT GRAY */
 		a,
 		.currentPage,
 		.contacto__input {
-			color: rgba(242, 247, 247, 1);
+			color: $gray-light;
 		}
 		
 		/* GOLDEN */
@@ -97,12 +103,11 @@ body {
 
 	a {
 		text-decoration: none;
-	}
-
-		a:hover {
+		&:hover {
 			text-decoration: underline;
 			text-decoration-thickness: 2px;
 		}
+	}
 
 
 	/* DIVIDERS */

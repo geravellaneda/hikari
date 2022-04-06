@@ -2,36 +2,42 @@
 /* --- SECTION STYLES --- */
 /* ---------------------- */
 
-	/* === COMMON === */
+/* === COMMON === */
 
-		/* === HEADER LOGO === */
+/* === HEADER LOGO === */
 
-		.header__logo img {
-			padding: 2rem;
+.header__logo img {
+	padding: 2rem;
+}
+
+
+/* === TOP NAVIGATION === */
+.navigation {
+	background-color: rgba(20, 26, 25, 0.96);
+	position: sticky;
+	top: 0;
+	padding: 1rem 0;
+	overflow-x: hidden;
+	z-index: 9999;
+	ul {
+    	display: flex;
+    	flex-wrap: nowrap;
+    	justify-content: space-between;
+		padding: 0 2rem;
+		li {
+			display: inline-block;
 		}
+	}
+}
 
-		/* === TOP NAVIGATION === */
-		.navigation {
-			background-color: rgba(20, 26, 25, 0.96);
-			position: sticky;
-			top: 0;
-			padding: 1rem 0;
-			overflow-x: hidden;
-			z-index: 9999;
-		}
+.navigation__item {
+	text-decoration: none;
+	text-transform: uppercase;
+}
 
-		.navigation ul {
-		    display: flex;
-		    flex-wrap: nowrap;
-		    justify-content: space-between;
-    		padding: 0 2rem;
-		}
-
-			.navigation ul li {
-				display: inline-block;
-			}
-
-			.navigation__item {
-				text-decoration: none;
-				text-transform: uppercase;
-			}
+/* RESPONSIVE NAVIGATION -- MD AND UP */
+@media only screen and (min-width: 768px) {
+	.navbar {
+		position: static;
+	}
+}
