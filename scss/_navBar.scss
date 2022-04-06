@@ -1,0 +1,37 @@
+/* ---------------------- */
+/* --- SECTION STYLES --- */
+/* ---------------------- */
+
+	/* === COMMON === */
+
+		/* === HEADER LOGO === */
+
+		.header__logo img {
+			padding: 2rem;
+		}
+
+		/* === TOP NAVIGATION === */
+		.navigation {
+			background-color: rgba(20, 26, 25, 0.96);
+			position: sticky;
+			top: 0;
+			padding: 1rem 0;
+			overflow-x: hidden;
+			z-index: 9999;
+		}
+
+		.navigation ul {
+		    display: flex;
+		    flex-wrap: nowrap;
+		    justify-content: space-between;
+    		padding: 0 2rem;
+		}
+
+			.navigation ul li {
+				display: inline-block;
+			}
+
+			.navigation__item {
+				text-decoration: none;
+				text-transform: uppercase;
+			}

@@ -1,3 +1,124 @@
-// VARIABLES GLOBALES
+/* === CSS RESET === */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 
-$mainColor: red;
+/* --------------------- */
+/* --- GLOBAL STYLES --- */
+/* --------------------- */
+
+body {
+	color: red; /* debug */
+	background-color: rgb(20, 26, 25);
+}
+
+	/* === FONT SIZES === */
+
+	h1, .text-xl {
+		font-size: 5rem;
+		line-height: 5.5rem;
+		margin: 1rem 0;
+	}
+
+	h2 {
+		font-size: 4rem;
+		line-height: 4.4rem;
+
+	}
+
+	h4 {
+		font-size: 2rem;
+		line-height: 2.2rem;
+	}
+
+	h5, .text-md {
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
+
+	.text-sm {
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
+
+
+	/* === COLORS === */
+
+		/* MEDIUM GRAY */
+		h1, h2, h3, h4, h5, p,
+		.navigation__item,
+		.form__textarea,
+		.form__input {
+			color: rgb(148, 145, 133);
+		}
+
+		.dividerTop,
+		.dividerBottom {
+			border-color: rgb(148, 145, 133);
+		}
+
+		/* LIGHT GRAY */
+		a,
+		.currentPage,
+		.contacto__input {
+			color: rgba(242, 247, 247, 1);
+		}
+		
+		/* GOLDEN */
+		a:hover,
+		.navigation__item:hover,
+		blockquote {
+			color: rgb(121, 110, 73);
+		}
+
+	/* === MARGINS === */
+
+		/* Headings and paragraphs */
+
+		h2, h3, h4, p {
+			margin: 1rem 0;
+		}
+
+
+	/* DEFAULT PARAGRAPH */
+
+	p {
+		font-family: adelle-sans, sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 1rem;
+	    line-height: 1.3rem;
+	    letter-spacing: -.02rem;
+	}
+
+	/* LINKS */
+
+	a {
+		text-decoration: none;
+	}
+
+		a:hover {
+			text-decoration: underline;
+			text-decoration-thickness: 2px;
+		}
+
+
+	/* DIVIDERS */
+
+	.dividerTop {
+		border-width: .1rem;
+		border-top-style: solid;
+	}
+
+	.dividerBottom {
+		border-width: .1rem;
+		border-bottom-style: solid;
+	}
+
+	/* FLUID IMAGES */
+
+	img.fluid {
+		width: 100%;
+	}
