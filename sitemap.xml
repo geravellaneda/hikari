@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://geravellaneda.github.io/hikari/</loc>
+  <lastmod>2022-04-13T17:58:09+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://geravellaneda.github.io/hikari/pages/coleccion.html</loc>
+  <lastmod>2022-04-13T17:58:09+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://geravellaneda.github.io/hikari/pages/novedades.html</loc>
+  <lastmod>2022-04-13T17:58:09+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://geravellaneda.github.io/hikari/pages/contacto.html</loc>
+  <lastmod>2022-04-13T17:58:09+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://geravellaneda.github.io/hikari/pages/acerca-del-proyecto.html</loc>
+  <lastmod>2022-04-13T17:58:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://geravellaneda.github.io/hikari/pages/novedades/detalle.html</loc>
+  <lastmod>2022-04-13T17:58:09+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://geravellaneda.github.io/hikari/index.html</loc>
+  <lastmod>2022-04-13T17:58:09+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://geravellaneda.github.io/hikari/pages/coleccion/detalle.html</loc>
+  <lastmod>2022-04-13T17:58:09+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+
+
+</urlset>
