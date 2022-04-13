@@ -724,9 +724,3 @@ ul {
 	background-color: $gray-dark;
 }
 
-/* RESPONSIVE HEADER MD AND UP */
-@media only screen and (min-width: 768px) {
-	.navbar {
-		position: static;
-	}
-}
