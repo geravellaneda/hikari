@@ -15,6 +15,28 @@ $gray-medium:rgb(148, 145, 133);
 $gray-light:rgb(242, 247, 247);
 $golden:rgb(121, 110, 73);
 
+// MIXINS
+
+@mixin text($font-size,$line-height){
+	font-size: $font-size;
+	line-height: $font-size * 1.1;
+} // @include text(2rem,2.2rem)
+
+// @mixin text($font-size,$line-height){
+// 	font-size: $font-size;
+// 	line-height: $line-height;
+// } // @include text(2rem,2.2rem)
+
+// MAPS
+
+$headings:(
+	'heading-1':5rem,
+	'heading-2':4rem,
+	'heading-3':3rem,
+	'heading-4':2rem,
+	'heading-5':1.5rem,
+	);
+
 body {
 	color: red; /* debug */
 	background-color: $gray-dark;
@@ -22,31 +44,26 @@ body {
 
 	/* === FONT SIZES === */
 
+
 	h1, .text-xl {
-		font-size: 5rem;
-		line-height: 5.5rem;
+		@include text(map-get($map:$headings,$key:'heading-1'),5.5rem);
 		margin: 1rem 0;
 	}
 
 	h2 {
-		font-size: 4rem;
-		line-height: 4.4rem;
-
+		@include text(map-get($map:$headings,$key:'heading-2'),4.4rem);
 	}
 
 	h4 {
-		font-size: 2rem;
-		line-height: 2.2rem;
+		@include text(map-get($map:$headings,$key:'heading-4'),2.2rem);
 	}
 
 	h5, .text-md {
-		font-size: 1.5rem;
-		line-height: 2rem;
+		@include text(map-get($map:$headings,$key:'heading-5'),2rem);
 	}
 
 	.text-sm {
-		font-size: 1rem;
-		line-height: 1.5rem;
+		@include text(1rem,1.5rem);
 	}
 
 
@@ -76,7 +93,7 @@ body {
 		a:hover,
 		.navigation__item:hover,
 		blockquote {
-			color: rgb(121, 110, 73);
+			color: $golden;
 		}
 
 	/* === MARGINS === */
@@ -94,8 +111,7 @@ body {
 		font-family: adelle-sans, sans-serif;
 		font-weight: 300;
 		font-style: normal;
-		font-size: 1rem;
-	    line-height: 1.3rem;
+		@include text(1rem,1.3rem)
 	    letter-spacing: -.02rem;
 	}
 

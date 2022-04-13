@@ -1,76 +1,72 @@
 /* === INDEX === */
 
-			/* === CONTENT === */
+	/* === CONTENT === */
 
-				/* === FEATURED === */
+		/* === FEATURED === */
 
-				.featured {
-					margin: 4rem 0;
-					/* GRID */
-					display: grid;
-					grid-template-columns: repeat(2, 1fr);
-					align-items: center;
-				}
+		.featured {
+			margin: 4rem 0;
+			/* GRID */
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			align-items: center;
+		}
 
-					.featured__copy {
-						padding: 4rem;
-					}
+			.featured__copy {
+				padding: 4rem;
+			}
 
-				/* === DESTACADISIMO === */
+		/* === DESTACADISIMO === */
 
-				.destacadisimo {
-				    padding: 8rem;
-				    vertical-align: bottom;
-				    background: url(../media/pattern.jpg);
-				    background-attachment: fixed;
-					}
+		.destacadisimo {
+		    padding: 8rem;
+		    vertical-align: bottom;
+		    background: url(../media/pattern.jpg);
+		    background-attachment: fixed;
+			}
 
-				.destacadisimo__caja {
-					background-color: $gray-dark;
-					padding: 4rem;
-					border: .4rem solid $golden;
-					box-sizing: border-box;
-				}
+		.destacadisimo__caja {
+			background-color: $gray-dark;
+			padding: 4rem;
+			border: .4rem solid $golden;
+			box-sizing: border-box;
+		}
 
-				/* === NOVEDADES === */
-				.novedades__header {
-					/* FLEX */
-				    display: flex;
-				    align-items: baseline;
-				    flex-direction: row;
-				    justify-content: space-between;
-				    /*padding: 0 2rem;*/
-				}
-				.novedades__content {
-					margin-top: 4rem ;
-				}
+		/* === NOVEDADES === */
+		.novedades__header {
+			/* FLEX */
+		    display: flex;
+		    align-items: baseline;
+		    flex-direction: row;
+		    justify-content: space-between;
+		}
+		.novedades__content {
+			margin-top: 4rem ;
+		}
 
-					.novedades__article h4,
-					.novedades__article p {
-						margin-bottom: 0;
-				}
-					.novedades__article p {
-						margin-top: 0;
-				}
+			.novedades__article h4,
+			.novedades__article p {
+				margin-bottom: 0;
+		}
+			.novedades__article p {
+				margin-top: 0;
+		}
 
-				/* === CONTACT === */
+		/* === CONTACT === */
 
-				.contact {
-					text-align: center;
-					background: url(../media/pattern-neko.jpg);
-					padding: 10rem 15rem;
-					margin: 3rem 0 0	;
-					box-sizing: border-box;
-					overflow-x: hidden;
-				}
-					.contact__content {
-						background: $gray-dark;
-						padding: 4rem;
-						border: 0.4rem solid $golden;
-					}
-					.contact__title {}
-					.contact__copy {}
-					.contact__link {}
+		.contact {
+			text-align: center;
+			background: url(../media/pattern-neko.jpg);
+			padding: 10rem 15rem;
+			margin: 3rem 0 0	;
+			box-sizing: border-box;
+			overflow-x: hidden;
+		}
+			.contact__content {
+				background: $gray-dark;
+				padding: 4rem;
+				border: 0.4rem solid $golden;
+			}
 
 		/* === PAGINA COLECCION === */
 
@@ -115,7 +111,6 @@
 				grid-template-columns: 1fr;
 			}
 
-				.novedades__destacada img {}
 				.novedades__text {
 					padding: 1rem 2rem 2rem;
 				}
@@ -144,7 +139,6 @@
 		}
 
 			.content__text {
-				/*width: 60%;*/
 				padding: 0 2rem;
 			}
 			.content__aside {
@@ -206,33 +200,29 @@
 			}
 
 				/* BUTTONS */
-				.form__reset,
 				.form__submit
 				 {
-					padding: 1rem 2rem;
-					box-sizing: border-box;
-					border: none;
-				}
-				.form__reset {
-					border: .1rem solid $golden;
-					background: none;
-					color: $gray-medium;
-				}
-				.form__submit {
 					background: $golden;
 					border: .1rem solid $golden;
-				}
-					.form__submit:hover,
-					.form__reset:hover {
+					box-sizing: border-box;
+					padding: 1rem 2rem;
+					&:hover {
 						cursor: pointer;
 						background: $gray-light;
 						color: $golden;
 						border: .1rem solid $gray-light;
 					}
+				}
+				.form__reset {
+					@extend .form__submit;
+					border: .1rem solid $golden;
+					background: none;
+					color: $gray-medium;
+				}
 					
-					.form__buttons {
-						display: grid;
-					}
+				.form__buttons {
+					display: grid;
+				}
 
 			/* INTERIORES: GENERAL */
 			h1 {
@@ -240,7 +230,7 @@
 			}
 
 
-			/* === GRIDS === */
+/* === GRIDS === */
 
 	/* GENERAL */
     .wrapper {
@@ -303,14 +293,13 @@
     		grid-area: footerCopyright;
     	}
 
-    	/* MOBILE */
+/* MOBILE */
 @media only screen and (max-width: 767px) {
 
 	/* GENERAL */
 
 	.text-lg {
-	    font-size: 2rem;
-	    line-height: 2.2rem;
+		@include text(2rem,2.2rem);
 	    text-transform: uppercase;
 	}
 
@@ -362,8 +351,7 @@
 			margin-bottom: 1rem;
 		}
 		.footer__navigation li a.text-md {
-			font-size: 2rem;
-			line-height: 2.3rem;
+			@include text(2rem,2.3rem);
 		}
 
 	/* LOGO */
@@ -447,8 +435,6 @@
 		grid-template-columns: 1fr;
 	}
 
-
-
 }
 
 /* TABLET */
@@ -461,8 +447,8 @@
 		position: initial;
 		 ul {
 		    display: flex;
-		    padding: 0 2rem;
 		    flex-direction: column;
+		    padding: 0 2rem;
 		}
 	}
 
@@ -484,14 +470,12 @@
 
 	/* FONT SIZES */
 	h3, .text-lg {
-		font-size: 1.5rem;
-		line-height: 2.0rem;
+		@include text(1.5rem,2rem);
 		text-transform: uppercase;
 	}
 
 	h5, .text-md {
-    	font-size: 1rem;
-    	line-height: 1.4rem;
+		@include text(1rem,1.4rem);
 	}
 
 	/* FOOTER */
@@ -590,13 +574,11 @@
 	}
 
 	h5, .text-md {
-	    font-size: 1rem;
-	    line-height: 1.4rem;
+		@include text(1rem,1.4rem);
 	}
 
 	h3, .text-lg {
-		font-size: 2rem;
-		line-height: 2.2rem;
+		@include text(2rem,2.2rem);
 		text-transform: uppercase;
 	}
 
