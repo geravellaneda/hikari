@@ -1,7 +1,7 @@
 {
   "name": "hikari",
   "version": "1.0.0",
-  "description": "SASS version",
+  "description": "Hikari Shado -- SASS version",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
