@@ -20,17 +20,17 @@
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
-<body id="index">
+<body id="index" class="container">
 
 	<!-- NAVIGATION BEGINS -->
-	<nav class="navbar navbar-expand-md navbar-dark sticky-top bg-gray pb-0">
-		<div class="container-md">
+	<nav class="navbar navbar-expand-md navbar-dark sticky-top bg-gray pb-0 row">
+		<div class="container">
 		  	<div class="row">
 				<!-- MENU ITEMS -->
 				<div class="collapse navbar-collapse dividerBottom" id="navbarNav">
 			      <ul class="navbar-nav d-flex justify-content-around w-100 text-center mb-3 mb-md-0">
 					<li class="nav-item">
-						<a class="nav-link text-lg navigation__item p-3 active currentPage" aria-current="page" href="#">Index</a>
+						<a class="nav-link text-lg navigation__item p-3 active currentPage" aria-current="page" href="#">Inicio</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link text-lg navigation__item p-3" href="pages/coleccion.html">Colección</a>
@@ -57,100 +57,94 @@
 	</nav>
 
 	<!-- CONTENIDO PRINCIPAL BEGINS -->
-	<div class="container">
-		<div class="row"> <!-- BOOTSTRAP -->
+	<main>
+		<div class="">
 
-			<main class="main px-0">
+			<main class="main">
 
 				<!-- HERO COMIENZA -->
 				<section class="hero">
 					<img class="hero__img fluid" src="media/header.jpg" alt="Colección 2022 - Otoño Invierno" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-sine">
 				</section>
-				<!-- HERO TERMINA -->
 
-				<div class="container">
-					<div class="row">
-				
-						<section class="destacados mb-4">
+				<!-- DESTACADOS -->
+				<div class="row">
+			
+					<section class="destacados mb-4">
 
-							<!-- DESTACADO - COPY A IZQUIERDA -->
-							<article class="featured my-md-5">
-								<div class="featured__copy">
-									<h3 class="text-lg">Sobre la montaña florida sueltan los caballos en el cielo otoñal</h3>
-									<!-- <p> Quis velit natus ipsum nisi laborum veniam fugit dicta, amet adipisci officiis commodi.</p> -->
-									<a href="pages/coleccion.html" class="text-md">Ver Colección Haiku</a>
-								</div>
-								<div class="featured__img" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
-									<img class="fluid" src="media/coleccion--01.jpg" alt="Foto de Ksenia Polovodova">
-								</div>
-							</article>
-							
-							<!-- DESTACADO - COPY A DERECHA -->
-							<article class="featured my-md-5">
-								<div class="featured__img" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">
-									<img class="fluid" src="media/coleccion--02.jpg" alt="Foto de Unsplash">
-								</div>
-								<div class="featured__copy">
-									<h3 class="text-lg">Bajo la lluvia de verano el sendero desapareció</h3>
-									<!-- <p>Amamos el color. </p> -->
-									<a href="pages/acerca-del-proyecto.html" class="text-md">Acerca del Proyecto</a>
-								</div>
-							</article>
-						</section>
-
-					</div>
+						<!-- DESTACADO - COPY A IZQUIERDA -->
+						<article class="featured my-md-5">
+							<div class="featured__copy">
+								<h3 class="text-lg">Sobre la montaña florida sueltan los caballos en el cielo otoñal</h3>
+								<!-- <p> Quis velit natus ipsum nisi laborum veniam fugit dicta, amet adipisci officiis commodi.</p> -->
+								<a href="pages/coleccion.html" class="text-md">Ver Colección Haiku</a>
+							</div>
+							<div class="featured__img" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+								<img class="fluid" src="media/coleccion--01.jpg" alt="Foto de Ksenia Polovodova">
+							</div>
+						</article>
+						
+						<!-- DESTACADO - COPY A DERECHA -->
+						<article class="featured my-md-5">
+							<div class="featured__img" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+								<img class="fluid" src="media/coleccion--02.jpg" alt="Foto de Unsplash">
+							</div>
+							<div class="featured__copy">
+								<h3 class="text-lg">Bajo la lluvia de verano el sendero desapareció</h3>
+								<!-- <p>Amamos el color. </p> -->
+								<a href="pages/acerca-del-proyecto.html" class="text-md">Acerca del Proyecto</a>
+							</div>
+						</article>
+					</section>
 				</div>
 
-						<!-- DESTACADO GRANDE -->
-						<section class="destacadisimo">
-							<div class="destacadisimo__caja" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="ease-in-sine">
-								<h2 class="destacadisimo__title text-lg">Es el no color, negro es la ausencia. Sombra y vacio.</h2>
-								<p class="destacadisimo__copy">Diseños exclusivos de estampados.</p>
-							</div>
-						</section>
-						
-				<div class="container">
-					<div class="row">
-
-						<!-- SECCION NOVEDADES -->
-						<section class="novedades">
-							
-							<div class="novedades__header dividerTop dividerBottom my-4 mt-md-5">
-								<h4 class="novededes__title text-lg">Últimas novedades</h4>
-								<a class="novedades__link text-md" href="pages/novedades.html">Ver todo</a>
-							</div>
-
-							<div class="row">
-								<!-- ARTICULO #1 -->
-								<article class="novedades__article col-md-4 mb-4">
-									<img class="fluid" src="media/coleccion--03.jpg" alt="Imagen de artículo de Novedades">
-									<h4 class="text-lg">Nuevas Fragancias</h4>
-									<p>Para complementar la Colección Haiku</p>
-									<a href="pages/novedades/detalle.html" class="text-md">Continuar leyendo</a>
-								</article>
-
-								<!-- ARTICULO #2 -->
-								<article class="novedades__article col-md-4 mb-4">
-									<img class="fluid" src="media/coleccion--04.jpg" alt="Imagen de artículo de Novedades">
-									<h4 class="text-lg">Actividades 2022</h4>
-									<p>Agenda de desfiles nuestra nueva colección.</p>
-									<a href="pages/novedades/detalle.html" class="text-md">Continuar leyendo</a>
-								</article>
-
-								<!-- ARTICULO #3 -->
-								<article class="novedades__article col-md-4 mb-4">
-									<img class="fluid" src="media/coleccion--05.jpg" alt="Imagen de artículo de Novedades">
-									<h4 class="text-lg">Detrás de escena</h4>
-									<p>Proceso de generación de patrones geométricos.</p>
-									<a href="pages/novedades/detalle.html" class="text-md">Continuar leyendo</a>
-								</article>
-							</div>
-						</section>
-
+				<!-- DESTACADO GRANDE -->
+				<section class="destacadisimo">
+					<div class="destacadisimo__caja" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="ease-in-sine">
+						<h2 class="destacadisimo__title text-lg">Es el no color, negro es la ausencia. Sombra y vacio.</h2>
+						<p class="destacadisimo__copy">Diseños exclusivos de estampados.</p>
 					</div>
+				</section>
+					
+				<!-- NOVEDADES -->
+				<div class="row">
+
+					<!-- SECCION NOVEDADES -->
+					<section class="novedades">
+						
+						<div class="novedades__header dividerTop dividerBottom my-4 mt-md-5">
+							<h4 class="novededes__title text-lg">Últimas novedades</h4>
+							<a class="novedades__link text-md" href="pages/novedades.html">Ver todo</a>
+						</div>
+
+						<div class="row">
+							<!-- ARTICULO #1 -->
+							<article class="novedades__article col-md-4 mb-4">
+								<img class="fluid" src="media/coleccion--03.jpg" alt="Imagen de artículo de Novedades">
+								<h4 class="text-lg">Nuevas Fragancias</h4>
+								<p>Para complementar la Colección Haiku</p>
+								<a href="pages/novedades/detalle.html" class="text-md">Continuar leyendo</a>
+							</article>
+
+							<!-- ARTICULO #2 -->
+							<article class="novedades__article col-md-4 mb-4">
+								<img class="fluid" src="media/coleccion--04.jpg" alt="Imagen de artículo de Novedades">
+								<h4 class="text-lg">Actividades 2022</h4>
+								<p>Agenda de desfiles nuestra nueva colección.</p>
+								<a href="pages/novedades/detalle.html" class="text-md">Continuar leyendo</a>
+							</article>
+
+							<!-- ARTICULO #3 -->
+							<article class="novedades__article col-md-4 mb-4">
+								<img class="fluid" src="media/coleccion--05.jpg" alt="Imagen de artículo de Novedades">
+								<h4 class="text-lg">Detrás de escena</h4>
+								<p>Proceso de generación de patrones geométricos.</p>
+								<a href="pages/novedades/detalle.html" class="text-md">Continuar leyendo</a>
+							</article>
+						</div>
+					</section>
 				</div>
 			</main>
-			<!-- CONTENIDO TERMINA -->
 
 			<!-- SECTION CONTACTANOS -->
 			<section class="contact">
@@ -160,9 +154,8 @@
 					<a class="contact__link text-md" href="pages/contacto.html">Contactanos</a>
 				</div>
 			</section>
-
 		</div>
-	</div>
+	</main>
 
 	<!-- FOOTER BEGINS -->
 	<div class="container" data-aos="zoom-out" data-aos-easing="linear" data-aos-duration="1500">
