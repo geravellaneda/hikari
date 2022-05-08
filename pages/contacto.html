@@ -59,34 +59,53 @@
 	<!-- NAVIGATION ENDS -->
 
 	<!-- CONTENIDO COMIENZA -->
-	<main class="dividerTop">
-		<section class="container">
+	<main>
+		<section class="container dividerTop">
 
 			<!-- FORM INICIA -->
 			<form action="">
-				<div class="row">
-					<!-- INPUTS  -->
-					<label for="mensaje" class="py-3"><h3 class="text-lg">¿Consultas? ¿Algo para decirnos?</h3></label>
-					
-					<textarea class="form__textarea text-md col-md-6 col-xl-4 offset-xl-2" name="mensaje" id="mensaje" placeholder="Escribí tu mensaje acá :)"></textarea>
+					<h3 class="text-md py-3">¿Ya viste la nueva colección 2022?</h3>
 
-					<fieldset class="form__fieldset col-md-6 col-xl-4">
-						<legend><h5 class="text-md">Tus datos</h5></legend>
-						
-						<!-- NOMBRE -->
-						<label for="nombre"><p>¿Cuál es tu nombre?</p></label>
-						<input type="text" class="form__input" placeholder="Tu nombre" name="nombre" id="nombre">
-						
-						<!-- EMAIL -->
-						<label for="email"><p>¿Y tu dirección de email?</p></label>
-						<input type="email" class="form__input" placeholder="Tu email" name="email" id="email">
-					</fieldset>
-				</div>
-				<!-- BOTONES -->
-				<div class="row mt-3">
-					<input class="form__reset text-md col-md-6 col-xl-3 offset-xl-3" type="reset" value="Cancelar">
-					<input class="form__submit text-md col-md-6 col-xl-3" type="submit" value="Enviar">
-				</div>
+					<div class="row mb-4">
+						<div class="col-md-4">
+							<img class="img-fluid" src="../media/coleccion-2022-gift-box.jpg" alt="Detalle de la Gift box Hikari Shado.">
+						</div>
+						<div class="col-md-4">
+							<img class="img-fluid" src="../media/coleccion-2022-pattern.jpg" alt="Pattern abstracto hexagonal por Hikari Shado">
+						</div>
+						<div class="col-md-4">
+							<img class="img-fluid" src="../media/coleccion-2022-model.jpg" alt="Vista de modelo posando sentada vestida por Hikari Shado.">
+						</div>
+					</div>
+
+					<!-- INPUTS  -->
+					<label for="mensaje" class="py-3"><h2 class="text-lg">Envianos un mensaje con tus inquietudes, así podremos seguir mejorando tu experiencia con nuestra marca.</h2></label>
+					
+					<div class="row">
+						<div class="col-md-6">
+							<textarea class="form__textarea text-md w-100 h-100" name="mensaje" id="mensaje" placeholder="Escribí tu mensaje acá"></textarea>
+						</div>
+						<div class="col-md-6">
+							<fieldset class="form__fieldset">
+								<legend><h5 class="text-md">Antes de enviarnos tu mensaje, neecesitamos que nos ayudes con dos simples datos para organización e incluirte en nuestra lista de amigos y recibir regalos :)</h5></legend>
+								
+								<!-- NOMBRE -->
+								<label for="nombre"><p>¿Cuál es tu nombre?</p></label>
+								<input type="text" class="form__input" placeholder="Como quieras que te llamemos" name="nombre" id="nombre">
+								
+								<!-- EMAIL -->
+								<label for="email"><p>¿Y tu dirección de email?</p></label>
+								<input type="email" class="form__input" placeholder="Donde recibirás nuestras novedades (no spam)" name="email" id="email">
+							</fieldset>
+							<!-- BOTONES -->
+							<div class="row mt-3">
+								<div class="col-md-6"><input class="form__reset text-md w-100" type="reset" value="Cancelar"></div>
+								<div class="col-md-6"><input class="form__submit text-md w-100" type="submit" value="Enviar"></div>
+							</div>
+						</div>
+
+					</div>
+				
 			</form>
 			<!-- FORM TERMINA -->
 
@@ -100,7 +119,7 @@
 			<footer class="footer">
 				<a class="footer__logo" href="index.html"><img class="fluid" src="../media/hikariShadoLogoOverBlack.svg" alt="HIKARI SHADO Logo"></a>
 				<ul class="footer__navigation p-0">
-					<li><a href="../index.html" class="text-md">Index</a></li>
+					<li><a href="../index.html" class="text-md">Inicio</a></li>
 					<li><a href="../pages/coleccion.html" class="text-md">Colección</a></li>
 					<li><a href="../pages/novedades.html" class="text-md">Novedades</a></li>
 					<li><a href="../pages/contacto.html" class="text-md">Contacto</a></li>
